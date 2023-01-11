@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="blue_mobs.jpg" />
+    <None Remove="bomb.jpg" />
+    <None Remove="bomberman.jpg" />
+    <None Remove="Brick.jpg" />
+    <None Remove="door.jpg" />
+    <None Remove="Explosion-proof.jpg" />
+    <None Remove="flame.jpg" />
+    <None Remove="key.jpg" />
+    <None Remove="More_bomb.jpg" />
+    <None Remove="More_Range.jpg" />
+    <None Remove="purple_mobs.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="blue_mobs.jpg" />
+    <Resource Include="bomb.jpg" />
+    <Resource Include="bomberman.jpg" />
+    <Resource Include="flame.jpg" />
+    <Resource Include="More_bomb.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Brick.jpg" />
+    <Resource Include="door.jpg" />
+    <Resource Include="Explosion-proof.jpg" />
+    <Resource Include="key.jpg" />
+    <Resource Include="More_Range.jpg" />
+    <Resource Include="purple_mobs.jpg" />
+  </ItemGroup>
+
+</Project>
